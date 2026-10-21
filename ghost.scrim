@@ -1,0 +1,60 @@
+title    The Ghost Galleon
+composer Claude
+about    The villain's ship. Pipe organ, phantom choir and a music box nobody wound up.
+tempo    66
+beats    4
+steps    4
+reverb   0.55
+
+voice organ   pipe      vol=0.8  pan=-0.1
+voice pedal   pipe      vol=0.6
+voice choir   choir     vol=0.8 pan=0.2  center=G4
+voice low     strings   vol=0.7  pan=0.3  att=0.04 gate=0.85
+voice ghost   musicbox  vol=0.75 pan=0.45 rev=0.8
+voice bell    bell      vol=0.55 pan=-0.35
+voice timp    timpani   vol=0.85
+voice gong    gong      vol=0.6
+voice thunder thunder   vol=0.75
+
+pattern intro
+thunder | x... .... .... .... | _ | .... .... x... .... | _ |
+bell    | C5--------------- | _ | C5--------------- | _ |
+low     | C2+G2--------------- | = | = | B1+G2--------------- |
+choir   | _ | _ | [Cm]??--------------- | [G]?--------------- |
+ghost   | _ | G5--- C6--- Eb6------- | D6--- C6--- B5------- | _ |
+timp    | _ | _ | _ | G2?? G2?? G2? G2? G2? G2? G2 G2 G2 G2 G2! G2! G2! G2! G2!! G2!! |
+
+pattern A
+organ | G4--- C5--- Eb5------- | D5--- C5--- Bb4--- G4--- | Ab4------- C5--- Eb5--- | D5----------- B4--- |
+organ | G4--- C5--- Eb5--- G5--- | F5------- Ab5--- F5--- | D5--- F5--- B4--- D5--- | C5--------------- |
+pedal | C2--------------- | Bb1--------------- | Ab1--------------- | G1--------------- |
+pedal | C2--------------- | Db2--------------- | G1--------------- | C2--------------- |
+choir | [Cm]?--------------- | [Gm/Bb]?--------------- | [Ab]?--------------- | [G]?--------------- |
+choir | [Cm]?--------------- | [Db]?--------------- | [G7]?--------------- | [Cm]?--------------- |
+low   | C3- G2- C3- Eb3- D3- C3- G2- C3- | Bb2- G2- Bb2- D3- C3- Bb2- G2- Bb2- | Ab2- Eb2- Ab2- C3- Bb2- Ab2- Eb2- Ab2- | G2- D2- G2- B2- Ab2- G2- D2- B1- |
+low   | C3- G2- C3- Eb3- D3- C3- G2- C3- | Db3- Ab2- Db3- F3- Eb3- Db3- Ab2- Db3- | G2- D3- F3- D3- B2- D3- F3- D3- | C3- G2- C3- Eb3- G3- Eb3- C3- G2- |
+timp  | C2!--- .--- G2--- .--- | % | Ab2!--- .--- Eb2--- .--- | G2!--- .--- D2--- .--- |
+timp  | C2!--- .--- G2--- .--- | Db2!--- .--- Ab2--- .--- | G2!--- .--- G2--- G2? G2? G2 G2! | C2!--- .--- .--- .--- |
+bell  | C5--------------- | _ | _ | _ | G4--------------- | _ | _ | _ |
+
+pattern B
+organ | F5------- Eb5--- Db5--- | C5------- Ab4--- F4--- | G5------- F5--- Eb5--- | D5------- Eb5--- C5--- |
+organ | Eb5------- F5--- G5--- | Ab5------- G5--- F5--- | G5------- F5--- Eb5--- | D5--------------- |
+pedal | F2--------------- | = | C2--------------- | = |
+pedal | Ab1--------------- | Bb1--------------- | G1--------------- | = |
+choir | [Fm]?--------------- | = | [Cm]--------------- | = |
+choir | [Ab]--------------- | [Bb]--------------- | [G]!--------------- | [G7]!--------------- |
+low   | F2- C3- F3- Ab3- G3- F3- C3- F2- | F2- C3- F3- Ab3- C4- Ab3- F3- C3- | C3- G2- C3- Eb3- D3- C3- G2- C3- | C3- G2- C3- Eb3- G3- Eb3- C3- G2- |
+low   | Ab2- Eb3- Ab3- C4- Bb3- Ab3- Eb3- C3- | Bb2- F3- Bb3- D4- C4- Bb3- F3- D3- | G2- D3- G3- B3- D4- B3- G3- D3- | G2- B2- D3- F3- G3- F3- D3- B2- |
+timp  | F2!--- .--- C2--- .--- | % | C2!--- .--- G2--- .--- | % |
+timp  | Ab2!--- .--- Eb2--- .--- | Bb2!--- .--- F2--- .--- | G2? G2? G2? G2? G2? G2? G2 G2 G2 G2 G2 G2 G2! G2! G2! G2! | G2 G2 G2 G2 G2 G2 G2 G2 G2! G2! G2! G2! G2!! G2!! G2!! G2!! |
+gong  | X... .... .... .... | _ | _ | _ | x... .... .... .... | _ | _ | _ |
+thunder | _ | _ | .... .... x... .... | _ | _ | _ | _ | _ |
+
+# second time round, the music box follows the organ an octave up
+pattern A2 from A
+ghost | G5--- C6--- Eb6------- | D6--- C6--- Bb5--- G5--- | Ab5------- C6--- Eb6--- | D6----------- B5--- |
+ghost | G5--- C6--- Eb6--- G6--- | F6------- Ab6--- F6--- | D6--- F6--- B5--- D6--- | C6--------------- |
+
+play intro
+loop A B A2 B

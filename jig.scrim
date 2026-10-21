@@ -1,0 +1,22 @@
+title    Barn Burner Jig
+composer julia
+about    High-energy Irish-Polish barn dance.
+tempo    132
+beats    6
+steps    8
+swing    0.15
+reverb   0.4
+
+voice fid    fiddle vol=1.0 pan=0.2
+voice whi    whistle vol=0.8 pan=-0.2
+voice bod    drum vol=0.9 pan=0
+voice bas    bass vol=0.7 pan=0
+
+pattern main
+fid | D5- F#5- A5- D6- | B5- A5- G5- F#5- | G5- B5- D6- G6- | F#5- E5- D5- A4- |
+whi | D5- F#5- A5- D6- | B5- A5- G5- F#5- | G5- B5- D6- G6- | F#5- E5- D5- A4- |
+bod | X... x... X... x... | X... x... X... x... | X... x... X... x... | X... x... X... x... |
+bas | D2-- .... D2-- .... | G1-- .... G1-- .... | G1-- .... G1-- .... | A1-- .... A1-- .... |
+
+play main
+loop main

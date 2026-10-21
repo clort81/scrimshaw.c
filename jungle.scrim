@@ -1,0 +1,65 @@
+title    The Jungle Path
+composer Claude
+about    Exploring inland. Marimba ostinato, low flute, hand drums and something watching from the trees.
+tempo    92
+beats    4
+steps    4
+swing    0.15
+reverb   0.35
+
+voice flute   flute     vol=0.9  pan=-0.2
+voice marimba marimba   vol=1.0  pan=0.3
+voice vibes   vibes     vol=1.0 pan=-0.3
+voice strings strings   vol=0.45 pan=0.1 center=E4
+voice harp    harp      vol=0.55 pan=-0.45
+voice bass    fretless  vol=0.85
+voice tomlo   tomlo     vol=0.7  pan=-0.15
+voice bongo   bongo     vol=0.5  pan=0.35
+voice bongolo bongolo   vol=0.5  pan=0.25
+voice shaker  shaker    vol=0.45 pan=-0.45
+voice clave   clave     vol=0.35 pan=0.45
+voice guiro   guiro     vol=0.4  pan=-0.35
+
+pattern intro
+tomlo  | X... ..x. ..x. x... | % |
+shaker | x.o. x.ox x.o. x.oo | % |
+bongo  | _ | ..x. x.ox ..x. x.o. |
+guiro  | x... .... .... .... | _ |
+bass   | A1--------------- | = |
+
+pattern A
+marimba | A4-- E5-- C5- A4-- E5-- D5- | A4-- E5-- C5- B4-- E5-- G5- | F4-- C5-- A4- F4-- C5-- B4- | E4-- B4-- G#4- E4-- B4-- D5- |
+marimba | A4-- E5-- C5- A4-- E5-- D5- | A4-- E5-- C5- B4-- E5-- G5- | D4-- A4-- F4- D4-- A4-- G4- | E4-- B4-- G#4- D5-- B4-- G#4- |
+flute   | .--- E5----- D5 C5 B4 A4-- | A4----------- G4 A4 B4 C5 | C5------- B4--- A4--- | G#4----------- . . . . |
+flute   | .--- E5----- F5 E5 D5 E5-- | C6----------- B5 A5 G#5 A5 | F5------- E5--- D5--- | E5------- D5--- B4- G#4- |
+bass    | A1------- . . . A2 . G2 E2- | A1------- . . . A2 . C3 B2- | F1------- . . . F2 . C2 F1- | E1------- . . . E2 . D2 B1- |
+bass    | A1------- . . . A2 . G2 E2- | A1------- . . . A2 . E2 C#2- | D2------- . . . D3 . A2 F2- | E2------- . . . E3 . D3 G#2- |
+tomlo   | X... ..x. ..x. x... | % | % | % | % | % | % | X... ..x. x.x. xxXX |
+bongo   | ..x. x.ox ..x. x.o. | % | % | % | % | % | % | % |
+bongolo | .... ...x .... ..x. | % | % | % | % | % | % | % |
+shaker  | x.o. x.ox x.o. x.oo | % | % | % | % | % | % | % |
+clave   | x..x ..x. ..x. x... | % | % | % | % | % | % | % |
+guiro   | x... .... .... .... | _ | _ | _ | x... .... .... .... | _ | _ | _ |
+
+pattern B
+vibes   | E5------- G5--- C6--- | B5------- D6--- B5--- | C6------- B5--- A5--- | G#5--------------- |
+vibes   | A5------- C6--- F6--- | D6------- B5--- G5--- | G#5------- B5--- E6--- | D6------- B5--- G#5--- |
+strings | [C]--------------- | [G]--------------- | [Am]--------------- | [E]--------------- |
+strings | [F]--------------- | [G]--------------- | [E]--------------- | [E7]--------------- |
+marimba | C4- G4- E4- G4- C5- G4- E4- G4- | B3- G4- D4- G4- B4- G4- D4- G4- | A3- E4- C4- E4- A4- E4- C4- E4- | G#3- E4- B3- E4- G#4- E4- B3- E4- |
+marimba | A3- F4- C4- F4- A4- F4- C4- F4- | B3- G4- D4- G4- B4- G4- D4- G4- | G#3- E4- B3- E4- G#4- E4- B3- E4- | G#3- E4- B3- D4- G#4- D4- B3- D4- |
+harp    | _ | _ | _ | E3 G#3 B3 E4 G#4 B4 E5 G#5 B5------- | _ | _ | _ | E3 G#3 B3 D4 E4 G#4 B4 D5 E5------- |
+bass    | C2------- G2------- | B1------- G2------- | A1------- E2------- | G#1------- E2------- |
+bass    | F1------- C2------- | G1------- D2------- | E1------- B1------- | E1------- ~E2------- |
+tomlo   | X... .... x... .... | % | % | % | % | % | % | X... ..x. x.x. xxXX |
+bongo   | ..x. x.ox ..x. x.o. | % | % | % | % | % | % | % |
+shaker  | x.o. x.ox x.o. x.oo | % | % | % | % | % | % | % |
+guiro   | x... .... .... .... | _ | _ | _ | _ | _ | _ | _ |
+
+pattern A2 from A
+strings | [Am]?--------------- | = | [F]?--------------- | [E]?--------------- |
+strings | [Am]?--------------- | = | [Dm]?--------------- | [E7]?--------------- |
+vibes   | _ | _ | _ | . . . . . . . . E5 G#5 B5 E6---- | _ | _ | _ | . . . . . . . . . . . . B5 G#5 E5 D5 |
+
+play intro
+loop A B A2 B

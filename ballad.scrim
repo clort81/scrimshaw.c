@@ -1,0 +1,44 @@
+title    Neon Obsidian
+composer julia
+about    Epic throbbing prog rock ballad with ultra 80s style.
+tempo    72
+beats    4
+steps    4
+swing    0.05
+reverb   0.5
+
+voice lead    saw vol=1.0 pan=0.1
+voice pad     pad vol=0.6 pan=0 center=E4
+voice bass    synbass vol=1.0 pan=0
+voice kick    kick vol=0.8
+voice snare   snare vol=0.7 pan=0.1
+voice hat     hat vol=0.5 pan=0.3
+voice crash   crash vol=0.6
+voice solo    guitar vol=0.9 pan=-0.2
+
+pattern intro
+pad     | [Em]--------------- | [C]--------------- | [G]--------------- | [D]--------------- |
+bass    | E2--E2--E2--E2-- | C2--C2--C2--C2-- | G1--G1--G1--G1-- | D2--D2--D2--D2-- |
+kick    | x... .... .... .... | x... .... .... .... | x... .... .... .... | x... .... .... .... |
+crash   | X... .... .... .... | _ | _ | _ |
+
+pattern A
+lead    | E5-- G5-- B5- A5 G5 F#5 E5 D5--- | C5-- E5-- G5- F#5 E5 D5 C5 B4--- |
+lead    | B4-- D5-- G5- A5--- B5- A5 G5 | A5------- F#5- E5- D5- F#5- |
+pad     | [Em]--------------- | [C]--------------- | [G]--------------- | [D]--------------- |
+bass    | E2--E2--E2--E2-- | C2--C2--C2--C2-- | G1--G1--G1--G1-- | D2--D2--D2--D2-- |
+kick    | x... .... x... .... | x... .... x... .... | x... .... x... .... | x... .... x... .... |
+snare   | .... X... .... X... | .... X... .... X... | .... X... .... X... | .... X... .... X... |
+hat     | x.x. x.x. x.x. x.x. | % | % | % |
+
+pattern B
+solo    | E6---D6-B5-G5-- | A5---G5-E5-B4-- | B5-G5-E5-B4-G4 | A4------E5G5A5B5 |
+pad     | [Am]--------------- | [Em/G]--------------- | [C]--------------- | [D]------- [D7]------- |
+bass    | A1--A1--A1--A1-- | G1--G1--G1--G1-- | C2--C2--C2--C2-- | D2--D2--D2--D2-- |
+kick    | x... ..x. x... ..x. | % | % | x... x... x.x. XXXX |
+snare   | .... x... .... x... | % | % | .... x... ..x. xoXX |
+hat     | x.x. x.x. x.x. x.x. | % | % | % |
+crash   | _ | _ | _ | X... .... .... .... |
+
+play intro
+loop A B A+2 B*2
