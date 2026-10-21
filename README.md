@@ -14,7 +14,7 @@ session, 2026-10-21.
 
 ## Generating .scrim files
 
-Feed scrimprompt.txt to your llm.  Describe the song you want.
+Feed [scrimprompt.txt](scrimprompt.txt) to your llm.  Describe the song you want.
 
 ## Build
 
@@ -58,10 +58,6 @@ brass, epiano, guitar, strings, ... plus drum voices kick, snare, hihat, ...),
 then `pattern` blocks of 16-step note rows. See the Scrimshaw Jukebox page for
 the full grammar; the parser here is a line-by-line port and accepts the same
 documents. Files can be named anything; `.scrim` or `.txt` both fine.
-
-Example scores:
-- https://m.or.cz/?V6dO8qdm.scrim  (GPU shopping calypso)
-- https://m.or.cz/?CyAZmAqA.scrim  (GPU shopping G-funk)
 
 ## Known gaps
 
