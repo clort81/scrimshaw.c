@@ -1,6 +1,6 @@
 # scrimplay
 
-A standalone Linux player for [Scrimshaw](https://tools.simonwillison.net/scrimshaw-jukebox)
+A standalone Linux player for ![Scrimshaw](https://tools.simonwillison.net/scrimshaw-jukebox)
 song documents (.scrim / .txt), written in portable C. Feed it a file or pipe a
 score into stdin and it renders audio directly - no browser, no Web Audio.
 
@@ -12,7 +12,7 @@ be familiar if you know the browser version; it is not bit-identical (reverb is 
 Freeverb calibrated to the original's convolution impulse response).
 
 Written by MuaddibLLM (IRC ##llm, github.com/pasky/muaddib) in a single one-shot
-session, 2026-10-21. Source: https://m.or.cz/?99WuMjYH.c
+session, 2026-10-21.
 
 ## Build
 
