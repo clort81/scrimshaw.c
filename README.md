@@ -4,6 +4,8 @@ A standalone Linux player for [Scrimshaw](https://tools.simonwillison.net/scrims
 song documents (.scrim / .txt), written in portable C. Feed it a file or pipe a
 score into stdin and it renders audio directly - no browser, no Web Audio.
 
+![scrimplay in xterm](scrimplay.gif)
+
 Port of the Scrimshaw Jukebox's parser and Web Audio synth graph (tools.simonwillison.net/scrimshaw-jukebox,
 inline scripts `s0.js` parser/compiler and `s1.js` synth). The sound is meant to
 be familiar if you know the browser version; it is not bit-identical (reverb is a
