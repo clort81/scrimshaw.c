@@ -1,15 +1,13 @@
 # scrimplay
 
-A standalone Linux player for ![Scrimshaw](https://tools.simonwillison.net/scrimshaw-jukebox)
-song documents (.scrim / .txt), written in portable C. Feed it a file or pipe a
-score into stdin and it renders audio directly - no browser, no Web Audio.
+A standalone Linux player for [Scrimshaw](https://tools.simonwillison.net/scrimshaw-jukebox)
+song documents (.scrim / .txt), written in portable C. These are like MIDI files but
+simpler, more human readable and machine parseable.  
 
 ![scrimplay in xterm](scrimplay.gif)
 
-Port of the Scrimshaw Jukebox's parser and Web Audio synth graph (tools.simonwillison.net/scrimshaw-jukebox,
-inline scripts `s0.js` parser/compiler and `s1.js` synth). The sound is meant to
-be familiar if you know the browser version; it is not bit-identical (reverb is a
-Freeverb calibrated to the original's convolution impulse response).
+Basic FM synthesis, reminiscent of Yamaha's FM synthesis that dominated video game
+soundtracks of the late-80s and early 90s.
 
 Written by MuaddibLLM (IRC ##llm, github.com/pasky/muaddib) in a single one-shot
 session, 2026-10-21.
