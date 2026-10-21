@@ -12,6 +12,10 @@ soundtracks of the late-80s and early 90s.
 Written by MuaddibLLM (IRC ##llm, github.com/pasky/muaddib) in a single one-shot
 session, 2026-10-21.
 
+## Generating .scrim files
+
+Feed scrimprompt.txt to your llm.  Describe the song you want.
+
 ## Build
 
     cc -O2 -o scrimplay scrimplay.c -lm -lasound          # ALSA output
